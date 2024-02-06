@@ -2,6 +2,8 @@
 
 Esta 🌐 aplicación web está diseñada para ofrecerte toda la información meteorológica 🌡️ que necesitas, pero con un toque divertido y colorido 🎨 gracias al uso de emojis. Al proporcionar datos en tiempo real 🕒 basados en tu ubicación actual 📍, te mantiene informado sobre el clima de una manera que es tanto informativa como visualmente atractiva.
 
+<a href="https://luiso-o.github.io/Aplicacion-del-clima/" target="_blank">Link para ver el proyecto con GitHub Pages 😊🔗</a>
+
 ### Características Principales:
 
 - 📍 **Ubicación Automática:** Utiliza tu ubicación actual para mostrarte el clima preciso donde estás.
