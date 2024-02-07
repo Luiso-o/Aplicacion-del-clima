@@ -13,7 +13,8 @@ body {
 #container {
   background-color: white;
   padding: 15px;
-  width: 600px;
+  width: 50vw;
+  max-width: 600px;
   display: none;
   flex-direction: column;
   border-radius: 20px;
@@ -79,5 +80,23 @@ body {
   margin-right: 50px;
 }
 
+@media (max-width: 768px) {
+  #container {
+    width: 95vw; 
+  }
+
+  .upper-block, .block {
+    flex-direction: column; 
+  }
+
+  #temperature {
+    font-size: 30px; 
+  }
+
+  #gif {
+    width: 80px; 
+    margin: 0 auto; 
+  }
+}
 
 
