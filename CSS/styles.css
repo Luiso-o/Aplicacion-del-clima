@@ -30,7 +30,6 @@ body {
   background-color: #6dd5ed;
   color: #171123;
   box-shadow: 0 0 5px #381088;
-  flex-direction: row;
 }
 
 .left-content {
@@ -80,6 +79,28 @@ body {
   margin-right: 50px;
 }
 
+.footer {
+  color: #fff;
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px 0; 
+  font-size: 0.8em;
+}
+
+.footer a {
+  color: gainsboro; 
+  text-decoration: none; 
+  margin: 5px 0; 
+}
+
+.footer a:hover, .footer a:focus {
+  color: #2c3e50; 
+  text-decoration: underline; 
+}
+
 @media (max-width: 768px) {
   #container {
     width: 95vw; 
@@ -98,5 +119,3 @@ body {
     margin: 0 auto; 
   }
 }
-
-
