@@ -6,6 +6,7 @@ const fetchData = async position => {
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&lat=${latitude}&lon=${longitude}&appid=${API_KEY}`);
         const data = await response.json();
         setWeatherData(data);
+        console.log(data);
     } catch (error) {
         showError('Hubo un error al obtener los datos meteorológicos:', error);
     }

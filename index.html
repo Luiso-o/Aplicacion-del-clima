@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El clima</title>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/spinner.css">
     <link rel="shortcut icon" href="images/weather-forecast.ico" type="image/x-icon">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" as="style">
 </head>
 
 <body onload="onLoad()">
 
-    <div id="container">
+    <main id="container">
 
         <div class="upper-block">
             <div class="left-content">
@@ -27,34 +28,26 @@
 
         <div class="block">
             <ul>
-                <li>
-                    <div class="info" id="tempMax"></div>
-                </li>
-                <li>
-                    <div class="info" id="tempMin"></div>
-                </li>
-                <li>
-                    <div class="info" id="feelsLike"></div>
-                </li>
-                <li>
-                    <div class="info" id="pressure"></div>
-                </li>
-                <li>
-                    <div class="info" id="humidity"></div>
-                </li>
-                <li>
-                    <div class="info" id="windSpeed"></div>
-                </li>
+                <li><div class="info" id="tempMax" aria-label="Temperatura máxima"></div></li>
+                <li><div class="info" id="tempMin" aria-label="Temperatura mínima"></div></li>
+                <li><div class="info" id="feelsLike" aria-label="Sensación térmica"></div></li>
+                <li><div class="info" id="pressure" aria-label="Presión atmosférica"></div></li>
+                <li><div class="info" id="humidity" aria-label="Humedad"></div></li>
+                <li><div class="info" id="windSpeed" aria-label="Velocidad del viento"></div></li>
             </ul>
             <img id="gif" alt="animation">
         </div>
-    </div>
 
-    <div class="lds-ripple" id="loader">
+        <footer class="footer">
+            <a href="https://github.com/Luiso-o/Aplicacion-del-clima" target="_blank" rel="noopener noreferrer">Open Source en GitHub</a>
+        </footer>
+    </main>
+
+    <div class="lds-ripple" id="loader" aria-label="Cargando" role="alert" aria-live="assertive">
         <div></div>
         <div></div>
     </div>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 </body>
 
 </html>
