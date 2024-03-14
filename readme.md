@@ -29,7 +29,6 @@ Esta 🌐 aplicación web está diseñada para ofrecerte toda la información me
 
 Ya sea que estés planeando tu día 📅, eligiendo tu outfit 🧥, o simplemente curioso sobre el clima, esta aplicación te ofrece una manera única y alegre de obtener la información que necesitas. ¡Prepárate para ver el clima de una forma que nunca imaginaste! 🌟
 
-<img src="images/interfazUsuario.jpg" alt="interfaz de usuario">
-
+https://github.com/Luiso-o/Aplicacion-del-clima/assets/128043647/5f4b2461-07cb-4c98-b124-632dbd85cb0e
 
 * <a href = "https://www.flaticon.es/">Iconos y gifs en de FlatIcon</a>
